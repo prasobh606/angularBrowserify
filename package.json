@@ -1,0 +1,48 @@
+{
+  "name": "weatherforcatingapp",
+  "version": "1.0.0",
+  "description": "Simple weather forcasting ui",
+  "main": "app.js",
+  "scripts": {
+    "install": "napa",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-block-ui": "^0.2.2",
+    "angular-mocks": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "browserify": "^13.1.1",
+    "browserify-fs": "^1.0.0",
+    "browserify-ngannotate": "^2.0.0",
+    "del": "^2.2.2",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-cachebust": "0.0.6",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-install": "^0.6.0",
+    "gulp-jshint": "^2.0.2",
+    "gulp-ng-html2js": "^0.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "gulp.spritesmith": "^6.2.1",
+    "jshint": "^2.9.4",
+    "lodash": "^4.16.6",
+    "npm-css": "^0.2.3",
+    "restangular": "^1.5.2",
+    "underscore": "^1.8.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "napa": {
+    "angular": "angular/bower-angular",
+    "angular-route": "angular/bower-angular-route"
+  }
+}

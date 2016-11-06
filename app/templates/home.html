@@ -1,0 +1,35 @@
+
+<h3><span class="label label-default">Weather in London, GB</span></h3>
+
+
+<div class="row">
+
+	<div class="col-md-12">
+		<div class="btn btn-primary" ng-click="ctrl.getWeather()">get Weather forcast</div>
+	</div>
+</div>	
+
+<div class="row" ng-repeat="list in ctrl.list">
+	<div class="col-md-12 well">
+		<div class="col-xs-2">Time:<span ng-bind="list.dt_txt"></span></div>
+		<div class="col-xs-3">
+			<div class="col-xs-12">grnd_level:<span ng-bind="list.main.grnd_level"></span></div>
+			<div class="col-xs-12">humidity:<span ng-bind="list.main.humidity"></div>
+			<div class="col-xs-12">temp:<span ng-bind="list.main.temp"></div>
+			<div class="col-xs-12">temp_max:<span ng-bind="list.main.temp_max"></div>
+			<div class="col-xs-12">temp_min:<span ng-bind="list.main.temp_min"></div>
+		</div>
+		<div class="col-xs-2">
+			<div class="col-xs-12">main:<span ng-bind="list.weather[0].main"></span></div>
+			<div class="col-xs-12">description:<span ng-bind="list.weather[0].description"></span></div>
+		</div>
+		<div class="col-xs-2">
+			<div class="col-xs-12">Wind Speed:<span ng-bind="list.wind.Speed"></span></div>
+			<div class="col-xs-12">deg:<span ng-bind="list.wind.deg"></span></div>
+		</div>
+		<div class="col-xs-2">sys-pod:<span ng-bind="list.sys.pod"></span></div>
+		
+	</div>
+</div>
+
+
