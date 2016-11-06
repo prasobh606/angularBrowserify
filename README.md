@@ -2,7 +2,9 @@
 
 This is the test task which is developed with browserify and angular js and openweathermap API
 
-How to run
+How to execute
+
+1) Change the AppId in app/config/config.js (create a new AppId from http://openweathermap.org/)
 
 * Npm install
 * gulp
